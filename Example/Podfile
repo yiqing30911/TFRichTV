@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TFRichTV_Example' do
+  pod 'TFRichTV', :path => '../'
+
+  target 'TFRichTV_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
