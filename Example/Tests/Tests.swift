@@ -1,5 +1,5 @@
 import XCTest
-import TFRichTV
+//import TFRichTV
 
 class Tests: XCTestCase {
     

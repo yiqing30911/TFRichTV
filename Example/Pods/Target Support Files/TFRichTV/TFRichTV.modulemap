@@ -1,0 +1,6 @@
+framework module TFRichTV {
+  umbrella header "TFRichTV-umbrella.h"
+
+  export *
+  module * { export * }
+}

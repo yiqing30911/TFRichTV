@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '419512332@qq.com' => '419512332@qq.com' }
-  s.source           = { :git => 'https://github.com/419512332@qq.com/TFRichTV.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yiqing30911/TFRichTV.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'TFRichTV/Classes/**/*'
   
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'YYText'
 end
